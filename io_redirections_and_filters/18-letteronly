@@ -1,2 +1,2 @@
 #!/bin/bash
-grep '^[[:upper:]][[:lower:]]'
+grep -P "[A-Z]+\w*" 
